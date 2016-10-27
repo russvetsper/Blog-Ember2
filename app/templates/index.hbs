@@ -1,0 +1,13 @@
+<h1>Welcome to my Blog!!</h1>
+
+you have questions? we got answers!!
+
+<ul>
+  {{#each model as |blog|}}
+     {{blog-tile blog=blog}}
+  {{/each}}
+</ul>
+
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Contact us{{/link-to}}

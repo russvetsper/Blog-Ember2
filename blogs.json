@@ -1,0 +1,16 @@
+{ "blogs": [{
+    "blogger": "true",
+    "question": "ehh",
+    "answer": "aha"
+  }, {
+    "blogger": "Mike Teavee",
+    "question": "Seattle",
+    "answer": "Condo"
+
+  }, {
+    "blogger": "Violet Beauregarde",
+    "question": "Portland",
+    "answer": "Apartment"
+
+  }]
+}

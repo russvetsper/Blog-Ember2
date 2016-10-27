@@ -1,0 +1,10 @@
+<li>
+  {{#link-to 'about'}}&nbsp; {{blog.question}}'s has this question: 	&nbsp; {{blog.question}}{{/link-to}}
+  <br>
+{{#if isAnswerShowing}}
+{{blog.answer}}
+  <br><button {{action "hideAnswer"}}>hide 		&lt; answer</button>
+    {{else}}
+    <button {{action "buttonHasBeenClicked"}}>show &nbsp;  answer</button>
+{{/if}}
+</li>
